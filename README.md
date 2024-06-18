@@ -33,4 +33,4 @@ array_filters(array, function(value){
 let array = ["foo", "bar", 1]
 array_with(array, 2, "baz")//returns ["foo", "bar", "baz"]
 ```
-Check out the others in the index.as file, I can't be bothered to write.
+Check out the others in the index.txt file, I can't be bothered to write.
