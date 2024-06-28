@@ -1,6 +1,6 @@
 //checks any value from specified array
 function array_some(arr, fn){
-   var i=0
+   i=0
    while(i <= arr.length - 1){
     if(fn(arr[i])){
         return true
@@ -11,7 +11,7 @@ function array_some(arr, fn){
 }
 //checks all values from specified array
 function array_every(arr, fn){
-    var i=0
+    i=0
     while(i <= arr.length - 1){
      if(!fn(arr[i])){
          return false
@@ -23,7 +23,7 @@ function array_every(arr, fn){
 //filters values from specified array
 function array_filter(arr, fn){
     let filtered_array = []
-    var i=0
+    i=0
     while(i <= arr.length - 1)
     {
         if(fn(arr[i])){
@@ -77,7 +77,7 @@ function array_at(arr, index){
 }
 //assigns all arrays(you can use this function with objects)
 function array_assign(arr1, ...arrays){
-    var i=0
+    i=0
     while(i <= arrays.length - 1)
     {
         var i2=0;
@@ -91,7 +91,7 @@ function array_assign(arr1, ...arrays){
 }
 //does anything on the specified array and returns it
 function array_map(arr, fn){
-    var i=0;
+    i=0;
     while(i <= arr.length - 1){
         arr[i] = fn(arr[i])
     }
