@@ -76,7 +76,7 @@ function array_at(arr, index){
     return arr[index]
 }
 //assigns all arrays(you can use this function with objects)
-function array_assign(arr1, ...arrays){
+function array_assign(arr1, arrays){
     i=0
     while(i <= arrays.length - 1)
     {
